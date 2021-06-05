@@ -1,0 +1,41 @@
+.navbar {
+    grid-area: navbar;
+    background-color: $an-white;
+}
+
+.navbar__logo {
+    background-color: $smoky-black;
+    width: 100px;
+    height: 90px;
+
+}
+
+.logo__letter {
+    position: relative;
+    margin: 0;
+    top: 30px;
+    left: 15px;
+    color: $an-white;
+    text-align: center;
+    font-style: $old-standart;
+    font-size: $xx-large;
+    display: inline;
+}
+
+.navbar__list {
+    text-align: end;
+    width: 50%;
+    position: relative;
+    list-style: none;
+    color: $smoky-black;
+    bottom: 4em;
+    left: 35em;
+}
+
+.item_list {
+    display: inline;
+    padding-left: 45px;
+    font-family: $raleway;
+    font-weight: $bold;
+
+}
