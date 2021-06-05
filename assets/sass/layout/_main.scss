@@ -4,7 +4,6 @@
 }
 
 .container__main {
-    position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -13,9 +12,11 @@ h1 {
     font-family: $old-standart;
     font-size: $xxx-large;
     font-weight: $bold;
+    margin-bottom: 10px;
 }
 
 .text_main {
+    margin: 0;
     font-family: $raleway;
     color: $granite-gray;
 }
